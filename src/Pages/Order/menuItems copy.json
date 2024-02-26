@@ -1,0 +1,7 @@
+<select value={h.selectedVariant} onChange={h.handleVariantChange}>
+                      &nbsp;&nbsp;{itm.variants.map(v => (
+                      <option key={v.name} value={v}>
+                      {v.name}
+                    </option>
+                      ))}
+                    </select>

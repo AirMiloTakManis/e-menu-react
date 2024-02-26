@@ -1,0 +1,120 @@
+{
+  "menu": [
+    {
+      "group": "Set",
+      "category": 0,
+      "items": [
+        {
+          "item": "Breakfast Set A",
+          "variants": [
+            {"name": "Kopi", "price": 6.90},
+            {"name": "Kopi O", "price": 6.90},
+            {"name": "Kopi C", "price": 6.90},
+            {"name": "Tea", "price": 6.90},
+            {"name": "Tea O", "price": 6.90},
+            {"name": "Tea C", "price": 6.90}
+          ],
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "group": "Local Food",
+      "category": 1,
+      "items": [
+        {
+          "item": "Nasi Lemak",
+          "variants": [
+            {"name": "Nasi Lemak Telur", "price": 4.00},
+            {"name": "Nasi Lemak Ayam Goreng", "price": 6.00},
+            {"name": "Nasi Lemak Ayam Rendang", "price": 7.00}
+          ],
+          "modifiers": [
+            {"name": "None", "price": 0},
+            {"name": "Tambah Nasi", "price": 1.00},
+            {"name": "Tambah Ayam Goreng", "price": 3.00},
+            {"name": "Tambah Ayam Rendang", "price": 4.00},
+            {"name": "Bungkus", "price": 0.50}
+          ]
+        },
+        {
+          "item": "Kaya Butter Toast (2pcs)",
+          "variants": [
+            {"name": "White toast", "price": 5.50},
+            {"name": "Wholemeal", "price": 6.50}
+          ],
+          "modifiers": [
+            {"name": "None", "price": 0},
+            {"name": "Take Away", "price": 0.50}
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Western",
+      "category": 2,
+      "items": [
+        {
+          "item": "Golden Chicken Chop",
+          "variants": [
+            {"name": "Black Pepper Sauce", "price": 14.90},
+            {"name": "Mushroom Sauce", "price": 14.90}
+          ],
+          "modifiers": [
+            {"name": "None", "price": 0},
+            {"name": "Extra Sauce", "price": 0.00},
+            {"name": "Take Away", "price": 0.50}
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Beverage",
+      "category": 3,
+      "items": [
+        {
+          "item": "Kopi O",
+          "variants": [
+            {"name": "Hot", "price": 3.00},
+            {"name": "Cool", "price": 3.50}
+          ],
+          "modifiers": [
+            {"name": "None", "price": 0},
+            {"name": "Less Sweet", "price": 0.00},
+            {"name": "Less Ice", "price": 0.00},
+            {"name": "Kosong", "price": 0.00},
+            {"name": "Kopi Extra", "price": 1.00},
+            {"name": "Take Away", "price": 0.50}
+          ]
+        },
+        {
+          "item": "Teh C",
+          "variants": [
+            {"name": "Hot", "price": 3.20},
+            {"name": "Cool", "price": 3.70}
+          ],
+          "modifiers": [
+            {"name": "None", "price": 0},
+            {"name": "Less Sweet", "price": 0.00},
+            {"name": "Less Ice", "price": 0.00},
+            {"name": "Kosong", "price": 0.00},
+            {"name": "Kopi Extra", "price": 1.00},
+            {"name": "Take Away", "price": 0.50}
+          ]
+        },
+        {
+          "item": "Apple Juice",
+          "variants": [
+            {"name": "Normal", "price": 7.00},
+            {"name": "Less Ice", "price": 7.00},
+            {"name": "No Ice", "price": 7.50}
+          ],
+          "modifiers": [
+            {"name": "None", "price": 0},
+            {"name": "Take Away", "price": 0.50}
+          ]
+        }
+      ]
+    }
+  ]
+}
