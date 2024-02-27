@@ -3,7 +3,7 @@ import { Dialog, DialogTitle, DialogContent, DialogActions, Button } from '@mui/
 import { useNavigate } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
 
-function CartSummaryDialog({ openCartSummaryDialog, setOpenCartSummaryDialog, cart }) {
+function CartSummaryDialog({ openCartSummaryDialog, setOpenCartSummaryDialog, cart, setOpenAddItemDialog, setSelectedVariant, setSelectedModifier }) {
   const navigate = useNavigate();
 
   const calculateTotalPrice = () => {
@@ -38,7 +38,18 @@ function CartSummaryDialog({ openCartSummaryDialog, setOpenCartSummaryDialog, ca
                   -{m.name}
                 </text>
                 ))}
-                <text style={{ fontSize: 12, cursor: 'pointer', color: 'var(--primary-color)' }}>Edit</text>
+                {/* <text
+                  style={{ fontSize: 12, cursor: 'pointer', color: 'var(--primary-color)' }}
+                  onClick={() => { 
+                    setOpenCartSummaryDialog(false);
+                    setOpenAddItemDialog(true);
+                    setSelectedVariant(cart.find(d => d.name === c.name));
+                    // setSelectedVariant(findMenuItem(c.name, MenuList.menu))
+                    setSelectedModifier(c.modifiers)
+                  }}
+                >
+                  Edit
+                </text> */}
               </div>
               <div style={{ width: '20%', display: 'flex', justifyContent: 'end' }}>
                 {/* {calculatePrice(c.price, c.modifiers)} */}
